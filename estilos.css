@@ -71,3 +71,17 @@ body {
   padding-bottom: 2em;
   justify-content: flex-end;
 }
+
+@media screen and (min-width: 768px) {
+  .cards {
+    display: flex;
+    align-items: center;
+  }
+  .card-supervisor,
+  .card-calculator {
+    width: 33.33%;
+  }
+  .center {
+    margin: 0 2em 0 2em;
+  }
+}
